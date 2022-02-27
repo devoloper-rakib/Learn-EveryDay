@@ -1,0 +1,370 @@
+@media only screen and (max-width:576px){
+
+
+
+	.header{
+		background-position: center;
+		height: 854px !important
+	}
+	
+	
+	.header_content{
+		margin: 50px 0 0 0 !important;
+		padding: 0 60px;
+	}
+	
+	.header_content h5{
+		font-size: 18px!important;
+		margin-bottom: 20px !important;
+	}
+	
+	.header_content h1{
+		font-size: 35px !important;
+		margin-bottom: 20px !important;
+	}
+	.header_content p{
+		font-size: 16px !important;
+		line-height: 26px !important;
+		padding: 0 20px 0 0 !important;
+		margin: 0 0 30px 0 !important;
+	}
+	.header_content button{
+		letter-spacing: 2px;
+	}
+	
+/* have to unlock after all the work done  */
+	/* .header_img img{
+		margin:0 0 0 60px !important;
+	} */
+
+
+/* join part start  */
+
+.join{
+	padding: 50px 50px	!important;
+}
+
+.join_img{
+	position: relative;
+}
+
+.main_img img{
+	border-radius: 50%;
+	width: 450px !important;
+	height: 400px !important;
+	object-fit: cover;
+	z-index: 1;
+
+}
+.join_shape {
+    width: 324px !important;
+    height: 325px !important;
+    top: 22% !important;
+    right: -9% !important;
+}
+.rain_shape{
+	margin-top: 100px !important;
+	width: 100% !important;
+}
+
+.join_content{
+	margin: 20px 0 0 0 !important;
+}
+
+.join_content h1{
+	font-size: 35px !important;
+}
+
+.join_content p{
+	font-size: 16px !important;
+	padding: 0 0 0 0 !important;
+	margin-bottom: 40px !important;
+}
+
+ /* join part end  */
+
+
+ /* training section start  */
+
+ .training{
+	padding: 120px 50px !important;
+}
+.training_content_img{
+	text-align: end;
+	margin-right: 0 !important;
+}
+
+.training_content h1{
+	font-size: 32px !important;
+	line-height: 38px !important;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding-right: 100px;
+}
+.training_content p{
+	font-size: 16px !important;
+	line-height: 25px !important;
+	
+}
+
+.training_content button{
+	font-size: 18px !important;
+	line-height: 26px !important;	
+	padding: 10px 35px !important;
+	margin-bottom: 100px;
+}
+
+
+.training_img img{
+	border-radius: 50%;
+	width: 100%;
+	margin-left: 0px !important;
+	margin-top: 0px !important;
+}
+
+.small_img img{
+	margin:  -103px 0px 0px 164px !important;
+}
+
+ /* training section end */
+
+
+
+
+/* quote section start  */
+
+.quote_main{
+	padding: 50px 50px !important;
+}
+.quote_left_content p{
+	font-size: 16px !important;
+	line-height: 28px !important;
+}
+
+.quote_right_content{
+	margin: 50px 0 0 0 !important;
+}
+.quote_right_content p{
+	font-size: 16px !important;
+	line-height: 28px !important;
+}
+
+
+
+/* quote section end  */
+
+
+.practice{
+	padding: 50px 50px 50px 50px !important;
+	height: 1000px;
+}
+
+
+.practice_content h1{
+	font-size: 32px !important;
+	line-height: 38px !important;
+	margin-bottom: 20px !important;
+	margin-top: 50px !important;
+	padding-right: 10px !important;
+}
+.practice_content p{
+	font-size: 16px !important;
+	line-height: 25px !important;
+	
+}
+
+.practice_content button{
+	font-size: 18px !important;
+	line-height: 26px !important;	
+	padding: 10px 35px !important;
+	margin-bottom: 10px !important;
+}
+
+
+.practice_img{
+	position: relative;
+}
+
+.practice_main{
+	width: 100%;
+}
+.practice_shape{
+	width: 250px !important;
+	height: 250px !important;
+	position: absolute;
+	top: 36px !important;
+    left: 42px !important;
+}
+.practice_main img{
+	width: 90% !important;
+	height:500px !important;
+	object-fit: cover ;
+	object-position: center;
+	position: absolute;
+	z-index: 2;
+	margin-top: 70px;
+}
+
+.practice_img_box{
+	background-color: transparent;
+	color: transparent;
+}
+
+
+.practice_main::after {
+    padding: 20px 80px 20px 10px!important;
+    font-size: 15px !important; 
+    top: 1317% !important;
+    right: 1% !important;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+}
+
+
+/* practice part end  */
+
+
+
+
+/* eduction part start  */
+.eduction{
+	padding: 50px 50px !important;
+}
+
+.eduction_title{
+	height: 270px !important;
+	width: 100% !important;
+	object-fit: cover;
+	background-position: center center;
+	background-size: cover;
+}
+
+.eduction_title h1{
+	font-size: 35px !important;
+	line-height: 48px !important;
+	margin-top: 20px !important;
+	margin-bottom: 30px !important;
+}
+
+.eduction_title p{
+	font-size: 19px !important;
+	line-height: 28px !important;
+	margin-bottom: 40px !important;
+
+}
+.card{
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.card_head h1{
+	margin: 10px 0 10px 10px !important;
+	padding: 23px 25px;
+}
+
+
+/* eduction part end  */
+
+
+
+
+
+
+/* footer part start  */
+
+footer{
+	padding: 50px 50px !important;
+	height: 1200px !important;
+	z-index: 10 !important;
+}
+.footer_content_main{
+	position: static !important;
+
+}
+.footer_img{
+	z-index: 6;
+	margin-top: 12px !important;
+}
+.footer_content{
+	position:static !important;
+	z-index: 5;
+	background-color: #fff;
+	padding: 10px 10px 10px 10px !important;
+	top: 0 !important;
+    right: 0 !important;
+
+}
+.footer_content form h1{
+	font-size: 32px !important;
+	margin: 10px 0 10px 0 !important;
+}
+.footer_content form input , textarea{
+	font-size: 16px !important;
+	width: 80%;
+	margin: 15px 0;
+	padding: 15px 23px;
+}
+.btn_footer{
+	color: black;
+	padding: 12px 34px;
+	border: 2px solid black !important;
+	background-color: transparent;
+	width: 20% !important;
+	text-transform: uppercase;
+}
+
+
+.bottom_footer{
+	background-color: rgba(0, 0, 0, 0.911);
+	padding: 40px 30px 10px 30px;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: -111px;
+	z-index: 7;
+}
+.bottom_footer_content h5{
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+.bottom_footer_content p{
+	font-size: 18px;
+
+}
+
+
+footer{
+	margin-top: 1559px  !important;
+}
+
+
+
+
+/* footer part end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

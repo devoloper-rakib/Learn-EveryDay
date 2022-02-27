@@ -1,0 +1,394 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+
+.header{
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	height: 715px;
+}
+
+
+.header_content{
+	margin: 140px 0  0 0;
+}
+
+.header_content h5{
+	font-size: 25px;
+}
+
+.header_content h1{
+	font-size: 56px;
+}
+.header_content p{
+	font-size: 20px;
+	line-height: 28px;
+	color: rgba(0, 0, 0, 0.507);
+	padding: 0 190px 0 0 ;
+	margin: 0 0 50px 0;
+}
+.header_content button{
+	letter-spacing: 2px;
+}
+
+/* header part end  */
+ /* join part start  */
+
+.join{
+	padding: 150px 0;
+}
+
+.join_img{
+	position: relative;
+}
+
+.main_img img{
+	border-radius: 50%;
+	width: 450px ;
+	height: 450px ;
+	object-fit: cover;
+	z-index: 1;
+
+}
+.join_shape {
+    width: 430px;
+    height: 413px;
+    top: 16%;
+    right: 16%;
+    z-index: -1;
+    border-radius: 50%;
+    background-color: #2CCCC4;
+    position: absolute;
+}
+
+.rain_shape{
+	margin-top: 100px;
+}
+
+.join_content{
+	margin: 80px 0 0 0;
+}
+
+.join_content h1{
+	font-size: 56px;
+}
+
+.join_content p{
+	font-size: 20px;
+	line-height: 28px;
+	color: rgba(0, 0, 0, 0.603);
+	padding: 0 80px 0 0;
+	margin-bottom: 40px;
+}
+
+ /* join part end  */
+
+
+
+ /* training section start  */
+
+.training{
+	background-color: #2CCCC4;
+	padding: 150px 0 130px 0;
+}
+.training_content_img{
+	text-align: end;
+	margin-right: 140px;
+}
+
+.training_content h1{
+	font-size: 56px;
+	line-height: 68px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.training_content p{
+	font-size: 18px;
+	line-height: 28px;
+	color: #fff;
+	font-weight: 400;
+	
+}
+
+.training_content button{
+	font-size: 20px;
+	line-height: 28px;
+	color: black;
+	font-weight: 400;
+	text-transform: uppercase;
+	border: 1px solid black;
+	padding: 10px 35px;
+	background-color: transparent;
+}
+
+.training_img{
+	width: 90%;
+}
+
+.training_img img{
+	border-radius: 50%;
+	width: 100%;
+	margin-left: 40px;
+	margin-top: -30px;
+}
+
+.small_img img{
+	margin:  -189px 0px 0px 424px;
+}
+
+ /* training section end */
+
+
+/* quote section start  */
+
+.quote_main{
+	padding: 120px 0;
+}
+.quote_left_content p{
+	font-size: 20px;
+	line-height: 35px;
+	color: rgba(0, 0, 0, 0.877);
+	letter-spacing: 1.7px;
+}
+
+.quote_right_content{
+	margin: 270px 0 0 0;
+}
+.quote_right_content p{
+	font-size: 20px;
+	line-height: 35px;
+	color: rgba(0, 0, 0, 0.877);
+	letter-spacing: 1.7px;
+	margin-top: 30px;	
+}
+
+
+
+/* quote section end  */
+
+/* practice part start  */
+
+
+.practice{
+	background-color: #2CCCC4;
+	padding: 120px 0 150px 0;
+}
+
+.practice_content button{
+	font-size: 20px;
+	line-height: 28px;
+	color: black;
+	font-weight: 400;
+	text-transform: uppercase;
+	border: 1px solid black;
+	padding: 10px 35px;
+	background-color: transparent;
+}
+
+.practice_content h1{
+	font-size: 56px;
+	line-height: 68px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.practice_content p{
+	font-size: 22px;
+	line-height: 38px;
+	color: #fff;
+	font-weight: 400;
+	padding-right: 60px;
+}
+
+.practice_img{
+	position: relative;
+}
+
+.practice_main{
+	width: 100%;
+}
+.practice_shape{
+	background-color: white;
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	position: absolute;
+	top: 39px;
+    left: -187px;
+}
+.practice_main img{
+	width: 90%;
+	height: 600px;
+	object-fit: cover;
+	object-position: center;
+	position: absolute;
+	z-index: 2;
+}
+
+
+
+
+.practice_main::after {
+    content: "practice everyday";
+    background-color: white;
+    display: inline-block;
+    padding: 30px 166px 30px 30px;
+    font-size: 17px;
+    line-height: 28px;
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    z-index: 3;
+    position: absolute;
+    top: 908%;
+    right: -6%;
+}
+
+
+/* practice part end  */
+
+/* eduction part start  */
+.eduction{
+	padding: 120px 0 150px 0;
+}
+
+.eduction_title{
+	background-image: url(../Shapes/untitled\ \(2\).png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	z-index: -4;
+	text-align: center;
+	color: #fff;
+}
+
+.eduction_title h1{
+	font-size: 56px;
+	line-height: 58px;
+	margin-top: 120px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.eduction_title p{
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 70px;
+
+}
+.card{
+	background-color: #F2F2F2;
+	padding: 20px;
+}
+.card_head h1{
+	margin: 10px 0 10px 10px;
+	padding: 23px 25px;
+	background-color: #2CCCC4;
+	border-radius: 50%;
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+}
+.card-body .card-text{
+	color: rgba(0, 0, 0, 0.521);
+}
+
+.card-body a{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #2CCCC4;
+	padding: 0;
+	padding-bottom: 2px;
+	outline: none;
+	color: rgba(0, 0, 0, 0.753);
+	text-align: start;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+/* eduction part end  */
+
+
+/* footer part start  */
+
+footer{
+	padding: 120px 0 150px 0;
+	background-color: #2CCCC4;
+	height: 1200px;
+	z-index: -5 ;
+}
+.footer_content_main{
+	position: relative;
+
+}
+.footer_img{
+	z-index: 6;
+	margin-top: 146px;
+}
+.footer_content{
+	position: absolute;
+	z-index: 5;
+	background-color: #fff;
+	padding: 10px 10px 160px 150px;
+	top: -5%;
+    right: -3%;
+	text-align: center;
+}
+.footer_content form h1{
+	font-size: 55px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin: 10px 0 50px 0;
+}
+.footer_content form input , textarea{
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	border-bottom: 2px solid black;
+	width: 80%;
+	margin: 15px 0;
+	padding: 15px 23px;
+}
+.btn_footer{
+	color: black;
+	padding: 12px 34px;
+	border: 2px solid black !important;
+	background-color: transparent;
+	width: 20% !important;
+	text-transform: uppercase;
+}
+
+
+.bottom_footer{
+	background-color: rgba(0, 0, 0, 0.911);
+	padding: 40px 30px 10px 30px;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: -111px;
+	z-index: 7;
+}
+.bottom_footer_content h5{
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+.bottom_footer_content p{
+	font-size: 18px;
+
+}
+.clear{
+	clear: both;
+}
+/* footer part end */
+
+
+
